@@ -1,0 +1,33 @@
+{
+  "name": "html5_css3_sass_for_beginners",
+  "version": "1.0.0",
+  "description": "Formation HTML5 et CSS3 pour débutants avec SASS pour faciliter le CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass assets/sass/screen.scss assets/stylesheets/styles.css --watch",
+    "sass-compile": "sass assets/sass/screen.scss assets/stylesheets/styles.css -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nephilim237/formation-HTML5-et-CSS3-Master.git"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "sass",
+    "beginners",
+    "front-end",
+    "design",
+    "web-design"
+  ],
+  "author": "Coding City",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nephilim237/formation-HTML5-et-CSS3-Master/issues"
+  },
+  "homepage": "https://github.com/Nephilim237/formation-HTML5-et-CSS3-Master#readme",
+  "dependencies": {
+    "sass": "^1.62.0"
+  }
+}
